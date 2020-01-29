@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-website-v2/static/css/main.08877ebc.chunk.css",
+    "main.js": "/personal-website-v2/static/js/main.af107d17.chunk.js",
+    "main.js.map": "/personal-website-v2/static/js/main.af107d17.chunk.js.map",
+    "runtime~main.js": "/personal-website-v2/static/js/runtime~main.8dd6db9f.js",
+    "runtime~main.js.map": "/personal-website-v2/static/js/runtime~main.8dd6db9f.js.map",
+    "static/js/2.5d2c1169.chunk.js": "/personal-website-v2/static/js/2.5d2c1169.chunk.js",
+    "static/js/2.5d2c1169.chunk.js.map": "/personal-website-v2/static/js/2.5d2c1169.chunk.js.map",
+    "index.html": "/personal-website-v2/index.html",
+    "precache-manifest.ecedbfb131d2e159fd51b2fa16ec8d50.js": "/personal-website-v2/precache-manifest.ecedbfb131d2e159fd51b2fa16ec8d50.js",
+    "service-worker.js": "/personal-website-v2/service-worker.js",
+    "static/css/main.08877ebc.chunk.css.map": "/personal-website-v2/static/css/main.08877ebc.chunk.css.map",
+    "static/media/main.css": "/personal-website-v2/static/media/vancouver.52a5e006.jpg",
+    "static/media/cooking.jpg": "/personal-website-v2/static/media/cooking.87de045f.jpg",
+    "static/media/cube.png": "/personal-website-v2/static/media/cube.9bc9a1e5.png",
+    "static/media/fun.jpg": "/personal-website-v2/static/media/fun.7ef3c233.jpg",
+    "static/media/perspective.png": "/personal-website-v2/static/media/perspective.e430379c.png",
+    "static/media/physics.png": "/personal-website-v2/static/media/physics.118ab7b7.png",
+    "static/media/pnp.png": "/personal-website-v2/static/media/pnp.b4f432a9.png",
+    "static/media/tok.png": "/personal-website-v2/static/media/tok.e0ca1cc9.png"
+  }
+}
