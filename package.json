@@ -1,0 +1,37 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage": "https://xren935.github.io/personal-website-v2/",
+  "dependencies": {
+    "mdbreact": "4.25.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-native-styled-components": "2.1.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.0.1",
+    "react-visibility-sensor": "5.1.1",
+    "styled-components": "5.0.0",
+    "styled-loaders-react": "1.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
