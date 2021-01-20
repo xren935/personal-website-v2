@@ -4,10 +4,11 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://xren935.github.io/personal-website-v2/",
+  "homepage": "http://xren935.github.io/personal-website-v2",
   "dependencies": {
     "mdbreact": "4.25.0",
     "react": "16.12.0",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "16.12.0",
     "react-native-styled-components": "2.1.0",
     "react-router-dom": "5.1.2",

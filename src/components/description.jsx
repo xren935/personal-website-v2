@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../static/css/main.css";
 
 class Description extends React.Component {
   render() {
@@ -32,10 +31,11 @@ class Description extends React.Component {
           <div class="row">
             <div class="col-lg-12">
             <div className="sub-title" id="sub-title">
-                <h2>p.s. I've hidden some more interests/hobbies here 👇</h2>
-              <ul id="badges">
+                <h2 style={{color: "azure"}}>p.s. I've hidden some more interests/hobbies here 👇</h2>
+                <a style={{fontSize: "40px"}}> 👀 </a>
+              <ul class="badges">
                 <span>
-                  <span class="badge badge-primary">Languages</span>
+                  <span class="badge badge-primary">Computational Linguistics</span>
                   <span class="badge badge-secondary">RockClimbing</span>
                   <span class="badge badge-success">NerdyJokes</span>
                   <span class="badge badge-info">RollerCoasters</span>
@@ -46,7 +46,7 @@ class Description extends React.Component {
                   <span class="badge badge-info">Piano</span>
                   <span class="badge badge-dark">Photography</span>
                   <span class="badge badge-warning">MachineLearning</span>
-                  <span class="badge badge-dark">中文</span>
+                  <span class="badge badge-dark">Languages</span>
                   <span class="badge badge-secondary">Hiking</span>
                   <span class="badge badge-info">Swimming</span>
                   <span class="badge badge-success">Baking</span>

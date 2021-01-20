@@ -19,7 +19,7 @@
     margin: 0;
     /*background stuff*/
     background-size: 100vh 100vw;
-    background-image: url("./img/palace.jpg");
+    background-image: url('../img/palace.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -116,13 +116,24 @@
   }
   
   /*Description*/
+  .description {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(rgba(51, 25, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url("../img/beach.jpg");
+    background-size: 100vh 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
   .description h1 {
     /*position*/
     padding-top: 20vh;
     padding-left: 0;
     text-align: center;
     letter-spacing: 0.2rem;
-  
     margin: 0;
     /*styles*/
     color: #192965;
@@ -133,7 +144,7 @@
   .description p {
     margin: 0;
     /*styles*/
-    color: #192965;
+    color: white;
     font-size: 2.5vh;
     letter-spacing: 0.15rem;
     font-family: "PT Sans", sans-serif;
@@ -147,7 +158,7 @@
     background-size: cover;
     width: 235px;
     height: 235px;
-    background-image: url("./img/vancouver.jpg");
+    background-image: url("../img/vancouver.jpg");
     position: cover;
     display: block;
     border-radius: 50%;
@@ -160,22 +171,9 @@
     margin-top: 5vh;
     text-align: border-top;
   }
-  
-  .description .container-fluid {
-    /*sizing*/
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(rgba(51, 25, 0, 0.8), rgba(0, 0, 0, 0.3)),
-      url('./img/beach.jpg');
-    /*background stuff*/
-    background-size: 100vh 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-  }
+
   .img-vancouver:hover {
-    background-image: url("./img/vancouver.jpg");
+    background-image: url("../img/vancouver.jpg");
     box-shadow: 0 0 20px rgb(0, 116, 136);
     opacity: 1;
   }
@@ -184,13 +182,7 @@
   } */
   
   .description .container-fluid:hover {
-    background-image: url("./img/beach.jpg");
-    /*background stuff*/
-    background-size: 100vh 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-image: url("../img/beach.jpg");
     opacity: 1;
   }
   
@@ -209,13 +201,21 @@
     padding-left: 20vw;
     position: center;
   }
-  
+
+  .badges {
+    display: none;
+  }
+
+  a:hover + .badges{
+    display: block;
+  }
+
   /*carousel*/
   .carouPage {
     height: 100vh;
     width: 100vw;
     padding-top: 25vh;
-    background-image: url("./img/firework.jpg");
+    background-image: url("../img/firework.jpg");
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: 500px 100px;
@@ -330,7 +330,7 @@
     background-position: center center; */
     /* background-color: #272343; */
     background-color: linear-gradient(rgba(51, 25, 0, 0.8), rgba(0, 0, 0, 0.3));
-    background-image: url("./img/plain.jpg");
+    background-image: url("../img/plain.jpg");
     background-size: cover;
   }
   .timeline h1 {
@@ -511,7 +511,7 @@
   }
   
   .timeline .childhood {
-    background-image: url("./img/childhood.jpg");
+    background-image: url("../img/childhood.jpg");
     background-size: cover;
     width: 350px;
     height: 350px;
@@ -524,7 +524,7 @@
     text-align: border-top;
   }
   .timeline .highschool {
-    background-image: url("./img/highschool.jpg");
+    background-image: url("../img/highschool.jpg");
     background-size: cover;
     margin-left: 10vw;
     width: 350px;
@@ -538,7 +538,7 @@
     text-align: border-top;
   }
   .timeline .present {
-    background-image: url("./img/present.jpg");
+    background-image: url("../img/present.jpg");
     background-size: cover;
     margin-left: 10vw;
     width: 350px;
@@ -588,7 +588,7 @@
     background-repeat: no-repeat;
     /*background stuff*/
     background-size: 100vh 100vw;
-    background-image: url("./img/epilogue.jpg");
+    background-image: url("../img/epilogue.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -611,3 +611,47 @@
     color: white;
   }
   
+/* for the popup */
+  .modal{
+    padding-top: 30vh;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+#popup {
+    background-color: rgba(255, 192, 203, 0.452);
+    color: black;
+    border: 5px solid rgba(255, 192, 203, 0.425);
+    box-shadow: pink 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+input {
+    background-color: rgba(255, 166, 0, 0.767);
+    font-size: 25px;
+    padding: 5px;
+}
+
+input:hover {
+    background-color: rgba(255, 166, 0, 0.342);
+}
+
+#email-inputbox {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgba(255, 166, 0, 0.349);
+    border: solid grey 2px;
+}
+
+#email-inputbox:hover {
+    background-color: rgba(189, 182, 171, 0.705);
+    border: solid grey 2px;
+}
+#submit-btn {
+    background-color:rgba(255, 166, 0, 0.74);
+    margin-left: 30%;
+    padding: 5px;
+    font-size: 25px;
+}

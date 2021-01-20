@@ -41,13 +41,13 @@ class Navigation extends React.Component {
                 <span class="glyphicon glyphicon-cog" />
                 <span class="nav-label">Github</span>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/annie-xingya-ren/">
                 <span class="glyphicon glyphicon-film" />
-                <span class="nav-label">more features...</span>
+                <span class="nav-label">LinkedIn</span>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/annieren_v2.1/">
                 <span class="glyphicon glyphicon-calendar" />
-                <span class="nav-label">coming soon...</span>
+                <span class="nav-label">Instagram</span>
               </a>
             </li>
           </ul>
